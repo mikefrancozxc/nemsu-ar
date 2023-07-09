@@ -1,5 +1,4 @@
-import mapboxgl from 'mapbox-gl';
-import 'aframe';
+
 mapboxgl.accessToken = "pk.eyJ1IjoibWlrZWZyYW5jb3EiLCJhIjoiY2xqOHg4ZGR6MHU3aTNzcXBqNm1vemV5YiJ9.lek5_593XJy1bE-UjhzgwA";
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
